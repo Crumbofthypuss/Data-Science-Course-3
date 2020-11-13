@@ -72,5 +72,5 @@ tidyDataset<-arrangedData %>%
 #tidyDataset
 
 #Saving the file to tidyDatset.csv or tidyDataset.txt
-write.csv(tidyDataset,file="tidyDataset.csv")
-write.table(tidyDataset,file="tidyDataset.txt")
+#write.csv(tidyDataset,file="tidyDataset.csv")
+write.table(tidyDataset,file="tidyDataset.txt",row.name=FALSE)
