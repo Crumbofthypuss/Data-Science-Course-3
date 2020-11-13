@@ -17,9 +17,10 @@ In this CodeBook, the datasets used for each process are described.
 4. trainpeople= dataframe containing subjects for the train dataset
 5. testActivity= dataframe containing activity ID for the test dataset
 6. trainActivity= dataframe containing activity ID for the train dataset
-7. newtest= combined datasets of test,testpeople, and testActivity
-8. newtrain= combined datasets of train, trainpeople, and trainActivity
-9. mergedData= merged datasets of newtest and newtrain
+7. sepcolumnnames= separated column names acquired from features.txt
+8. newtest= combined datasets of test,testpeople, and testActivity
+9. newtrain= combined datasets of train, trainpeople, and trainActivity
+10. mergedData= merged datasets of newtest and newtrain
 
 ### Selecting mean and std columns
 1. diminishedData = subset of mergedData containing mean and standard deviation columns
